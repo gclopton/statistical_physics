@@ -1,0 +1,429 @@
+{
+  "main": {
+    "id": "6639a2a166dd48f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f83c2e8b475fb44",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ef545d338e09d20",
+            "type": "split",
+            "dimension": 40.925925925925924,
+            "children": [
+              {
+                "id": "cb65c22cb1ef28c6",
+                "type": "tabs",
+                "dimension": 69.02985074626866,
+                "children": [
+                  {
+                    "id": "f94158266ce95048",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Project/1 Background/Jac/3.1 Implementation Outline.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "3.1 Implementation Outline"
+                    }
+                  },
+                  {
+                    "id": "010d60a3c145684b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Project/1 Background/Jac/3.2 Implementation.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "3.2 Implementation"
+                    }
+                  }
+                ],
+                "currentTab": 1
+              },
+              {
+                "id": "5d9e81c6cae79d13",
+                "type": "tabs",
+                "dimension": 30.970149253731343,
+                "children": [
+                  {
+                    "id": "25bb57603c761a30",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Project/1 Background/Jac/3.1 Implementation Outline.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "3.1 Implementation Outline"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "942610d546bb56b3",
+            "type": "tabs",
+            "dimension": 59.074074074074076,
+            "children": [
+              {
+                "id": "187e9d6679dccad7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/gradyclopton/ObsidianVaults/statistical_physics/Homework/Homework 1",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {},
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 204,
+                        "data": "\u001b[38;5;244m╭─\u001b[38;5;254;44m \u001b[38;5;255;1m~\u001b[38;5;254;22m/ObsidianVaults/\u001b[38;5;255;1mstatistical_physics\u001b[38;5;254;22m/Homework/\u001b[38;5;255;1mHomework 1\u001b[38;5;254;22m \u001b[34;43m\u001b[30m on master !4 ?22 \u001b[33;49m\u001b[38;5;244m───────────────────────────────────────────────────\u001b[30m\u001b[32;40m ✔ \u001b[34m\u001b[30;44m base \u001b[0m\r\n\u001b[38;5;244m╭─\u001b[38;5;254;44m \u001b[38;5;255;1m~\u001b[38;5;254;22m/ObsidianVaults/\u001b[38;5;255;1mstatistical_physics\u001b[38;5;254;22m/Homework/\u001b[38;5;255;1mHomework 1\u001b[38;5;254;22m \u001b[34;43m\u001b[30m on master !4 ?22 \u001b[33;49m\u001b[38;5;244m───────────────────────\u001b[30m\u001b[32;40m ✔ \u001b[34m\u001b[30;44m base  \u001b[36m\u001b[30;46m !6/6  \u001b[37m\u001b[30;47m at 13:22:0\u001b[0m\r\n\u001b[38;5;244m╭─\u001b[38;5;254;44m \u001b[38;5;255;1m~\u001b[38;5;254;22m/ObsidianVaults/\u001b[38;5;255;1mstatistical_physics\u001b[38;5;254;22m/Homework/\u001b[38;5;255;1mHomework 1\u001b[38;5;254;22m \u001b[34;43m\u001b[30m on master !4 ?22 \u001b[33;49m\u001b[38;5;244m─────────────────────────────────────────────────────────────────────────────────────\u001b[30m\u001b[32;40m ✔ \u001b[34m\u001b[30;44m base  \u001b[36m\u001b[30;46m !6/6  \u001b[37m\u001b[30;47m at 13:22:09 \u001b[38;5;244;49m─╮\r\n╰─\u001b[0m \u001b[198C\u001b[38;5;244m─╯\u001b[200D\u001b[0m",
+                        "rows": 5
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: gradyclopton@wirelessprv-10-192-137-92:~/ObsidianVaults/statistical_physics/Homework/Homework 1"
+                }
+              },
+              {
+                "id": "2bb420d61fee8743",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/gradyclopton/ObsidianVaults/statistical_physics/Project/1 Background/Jac",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {},
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 204,
+                        "data": "\u001b[38;5;76m❯\u001b[0m \u001b[32mgit\u001b[0m add \u001b[4m.\r\n\u001b[38;5;76;24m❯\u001b[0m \u001b[32mlazygit\u001b[1B\u001b[9D\u001b[0m",
+                        "rows": 30
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: lazygit"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d71f3569f05dc6fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e92762dd42ca75b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebd56adb9b513733",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d32758100133cc04",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "eaa47b3e348d72a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3a0a63a54b31ffe2",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf5b0ef5fb849e22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b48c7cd2eadc9a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "067a8d4d42abb050",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "9da84f3ec207cad0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b954916ea43a344d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project/1 Vacancy-Controlled Lattice Thermal Conductivity in Ceria  via Green-Kubo MD.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1 Vacancy-Controlled Lattice Thermal Conductivity in Ceria  via Green-Kubo MD"
+            }
+          },
+          {
+            "id": "03efa417f1013d19",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "9c59d0b0feac921e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "bases:Create new base": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "ketcher:Create new structure": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "terminal:Open terminal": false,
+      "cloze:Toggle all clozes": false,
+      "dbfolder:Create a new database table": false,
+      "modalforms:Edit forms": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
+    }
+  },
+  "floating": {
+    "id": "4cf5de82ff84618c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f4cd994b2352b6e1",
+        "type": "window",
+        "children": [
+          {
+            "id": "6accdb6cbd17bdd3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "73d6974c573af51d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Project/1 Background/Grady/1 Background Outline (Grady).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "1 Background Outline (Grady)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1237,
+        "y": -73,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "2bb420d61fee8743",
+  "lastOpenFiles": [
+    "Project/1 Background/Jac/3.2 Implementation.md",
+    "Project/1 Background/Jac/3.1 Implementation Outline.md",
+    "Project/1 Background/Jac/3.3 Project Repo Structure.md",
+    "Project/1 Background/Jac/3 Methods (Introduction).md",
+    "Project/1 Background/Jac/2.1 Background (Outline).md",
+    "Project/1 Background/Jac/1 Proposal.md",
+    "Project/1 Background/Grady/3 Schedule (Grady).md",
+    "Project/1 Background/Jac",
+    "Project/1 Background/Grady/2 Methods (Grady).md",
+    "Project/1 Background/Grady/1.1 Background (Grady).md",
+    "Project/1 Background/Grady",
+    "Project/1 Background/Grady/1 Background Outline (Grady).md",
+    "Homework/Surveys/Prelecture 4.md",
+    "Homework/Homework 4/Homework 4 Molecular Dynamics Questions.md",
+    "Homework/Surveys",
+    "Homework/Homework 3/Modeling of Harmonic Oscillator Questions.md",
+    "Homework/Homework 4",
+    "Screenshot 2025-09-21 at 12.47.30 AM.png",
+    "Screenshot 2025-09-21 at 12.42.35 AM.png",
+    "Homework/Homework 2/Homework 2.md",
+    "Homework/Homework 3",
+    "Screenshot 2025-09-21 at 12.40.27 AM.png",
+    "Screenshot 2025-09-21 at 12.39.49 AM.png",
+    "Screenshot 2025-09-21 at 12.39.13 AM.png",
+    "Screenshot 2025-09-21 at 12.38.38 AM.png",
+    "Screenshot 2025-09-21 at 12.36.54 AM.png",
+    "Screenshot 2025-09-21 at 12.36.08 AM.png",
+    "Screenshot 2025-09-21 at 12.35.18 AM.png",
+    "Screenshot 2025-09-21 at 12.34.10 AM.png",
+    "Homework/Homework 2/data1.5.txt",
+    "Project/1 Background/Sources.md",
+    "Project/2 Project Proposal/Project Proposal Draft 2.md",
+    "Project/2 Project Proposal/Project Proposal Draft 1.md",
+    "Project/2 Project Proposal/Project Proposal; Vacancy-Controlled Lattice Thermal Conductivity in Ceria.md",
+    "Project/2 Project Proposal",
+    "Project/1 Background",
+    "Project/2 Project Proposal/1 Vacancy-Controlled Lattice Thermal Conductivity in Ceria  via Green-Kubo MD.md",
+    "Homework/Homework 1/Homework 1 (Final Draft).md",
+    "Homework/Homework 2",
+    "Homework/Homework 1/2 Theory.md",
+    "Homework/Homework 1/Scratch Homework 1.md",
+    "Homework/Homework 1/Problem Description.md",
+    "Homework/Homework 1",
+    "Optimized Potentials for Liquid Simulations (OPLS).md",
+    "Reading Schedule.md"
+  ]
+}
