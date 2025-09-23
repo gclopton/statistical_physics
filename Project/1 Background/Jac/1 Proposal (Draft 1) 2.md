@@ -1,0 +1,22 @@
+
+**Are EC decomposition mechanisms in ReaxFF robust to parameter set and QEq vs. ACKS2?**
+
+We examine how ReaxFF's predictions for the earliest steps of ethylene-carbonate (EC) breakdown in a Li-ion environment-chemistry that seeds the solid-electrolyte interphase (SEI)-depend on two internal modeling choices: the parameter set and the charge-equilibration scheme (QEq vs. ACKS2). Holding the thermodynamic state and system geometry fixed while varying only these levers, we compare the identity of the first reactions, product branching, and early-time timescales to detect any systematic shifts.
+
+ReaxFF represents bonding through bond-order terms fitted in a parameter set and assigns time-dependent partial charges by solving a charge-equilibration problem at each step. Different parameter sets can alter relative barrier heights and intermediate stabilities. Different charge schemes change polarization and long-range charge transfer, which can bias nucleophilic attack, ring opening, or F-transfer in LiPF ${ }_6$-containing systems. If these choices change the initial events, then mechanistic conclusions from a ReaxFF simulation are conditional on those modeling assumptions. This would make results non-portable. Two ReaxFF setups can yield different mechanisms without either being wrong. Conclusions are robust only if they do not depend on these settings. When they do, claims must be qualified and checked against higher-level validation.
+
+We simulate a bulk EC-LiPF ${ }_6$ liquid at fixed salt fraction in a periodic box and, at a fixed thermodynamic state (temperature, density, composition), perform four matched MD experiments: parameter set A with QEq, A with ACKS2, B with QEq, and B with ACKS2. Trajectories are integrated with velocity-Verlet using a sub-femtosecond timestep, with a thermostat maintaining a constant temperature during the reactive window.
+
+We aim to quantify the earliest chemical events and their kinetics. From bond-order time series we identify the first elementary event in each trajectory (e.g., EC ring opening, solvent deprotonation, $\mathrm{PF}_6^{-}$dissociation) and record its occurrence time. Over an ensemble of runs we estimate first-event time distributions and branching fractions among competing pathways. Early products are classified by graph connectivity to obtain counts for $CO$ vs. $\mathrm{CO}_2$, small oligomers, and-in $\mathrm{LiPF}_6$ systems-the frequency and lifetime of $\mathrm{Li}-\mathrm{F}$ contacts as a proxy for $LiF$ precursor formation. Radial distribution functions and coordination numbers for $\mathrm{Li}-\mathrm{O}, \mathrm{Li}-\mathrm{F}$, and $\mathrm{C}-\mathrm{O}$ pairs provide structural context for these reactions.
+
+
+# Sources
+
+(1) Senftle, T. P.; Hong, S.; Islam, M. M.; Kylasa, S. B.; Zheng, Y.; Shin, Y. K.; Junkermeier, C.; Engel-Herbert, R.; Janik, M. J.; Aktulga, H. M.; Verstraelen, T.; Grama, A.; Van Duin, A. C. T. The ReaxFF Reactive Force-Field: Development, Applications and Future Directions. _npj Comput Mater_ **2016**, _2_ (1), 15011. [https://doi.org/10.1038/npjcompumats.2015.11](https://doi.org/10.1038/npjcompumats.2015.11).
+(2) Gao, J.; He, R.; Luo, K. H. Comparative Study of the Reductive Decomposition Reaction of Ethylene Carbonate in Lithium Battery Electrolyte: A ReaxFF Molecular Dynamics Study. _Phys. Chem. Chem. Phys._ **2024**, _26_ (33), 22189–22207. [https://doi.org/10.1039/D3CP05626K](https://doi.org/10.1039/D3CP05626K).
+(3) De Angelis, P.; Cappabianca, R.; Fasano, M.; Asinari, P.; Chiavazzo, E. Enhancing ReaxFF for Molecular Dynamics Simulations of Lithium-Ion Batteries: An Interactive Reparameterization Protocol. _Sci Rep_ **2024**, _14_ (1), 978. [https://doi.org/10.1038/s41598-023-50978-5](https://doi.org/10.1038/s41598-023-50978-5).
+(4) Hossain, M. J.; Pawar, G.; Liaw, B.; Gering, K. L.; Dufek, E. J.; Van Duin, A. C. T. Lithium-Electrolyte Solvation and Reaction in the Electrolyte of a Lithium Ion Battery: A ReaxFF Reactive Force Field Study. _The Journal of Chemical Physics_ **2020**, _152_ (18), 184301. [https://doi.org/10.1063/5.0003333](https://doi.org/10.1063/5.0003333).
+(5) Koski, J. P.; Moore, S. G.; Clay, R. C.; O’Hearn, K. A.; Aktulga, H. M.; Wilson, M. A.; Rackers, J. A.; Lane, J. M. D.; Modine, N. A. Water in an External Electric Field: Comparing Charge Distribution Methods Using ReaxFF Simulations. _J. Chem. Theory Comput._ **2022**, _18_ (1), 580–594. [https://doi.org/10.1021/acs.jctc.1c00975](https://doi.org/10.1021/acs.jctc.1c00975).
+
+
+
